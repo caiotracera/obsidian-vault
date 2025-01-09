@@ -1,0 +1,8 @@
+# O que são containers
+Um container é uma unidade padronizada de software que empacota o código e todas as suas dependências para que um software seja executado de forma rápida e consistente em qualquer lugar. Suas principais características são:
+
+- **Imutabilidade** - uma vez que em execução, ele deve ser capaz de subir de forma rápida e eficiente, além de ser capaz de ser executado de forma idêntica ao longo de todas as suas execuções;
+- **Isolamento de processos e recursos computacionais** - toda vez que rodamos um container, ele roda de forma isolada. Ou seja, ele não afeta a máquina host. Com isso, ele é capaz de isolar os processos, as redes, os recursos computacionais e etc. Além disso, a visibilidade dos processos **é limitada aos processos gerados pelo próprio container**;
+- **Leveza** - diferente de máquinas virtuais, um container é executado como um **processo** no sistema operacional. Com isso, ele é capaz de iniciar e morrer de forma muito rápida;
+- **Utiliza os recursos de kernel do SO** - o container utiliza os recursos do kernel do sistema operacional da máquina host. Com isso, o container acha que é possui um sistema operacional, mas na verdade ele possui diversos volumes montados que possibilitam a comunicação do container com o sistema operacional da máquina host, sem gerar nenhum tipo de prejuízo para a máquina host;
+- **Utiliza imagens para ser executado** - semelhante a um *snapshot*, o container usa uma imagem imutável que possui todas as informações necessárias para a execução correta do container;

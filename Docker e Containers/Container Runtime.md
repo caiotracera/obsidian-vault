@@ -1,0 +1,1 @@
+Um [[Container Runtime|container runtime]] é um software que permite a execução de um [[Conceitos básicos sobre containers|container]]. Ou seja, esse software possui todas as especificações, que são padronizadas através da iniciativa [Open Container Initiative](https://opencontainers.org/), para que um container possa ser executado.
