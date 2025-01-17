@@ -1,4 +1,4 @@
-[[Summary|AWS]] has [[Regions]] all around the world, and each region has a specific name, for example *us-east-1*, *eu-west-3* and *sa-east-1*. 
+[[AWS/Summary|AWS]] has [[Regions]] all around the world, and each region has a specific name, for example *us-east-1*, *eu-west-3* and *sa-east-1*. 
 
 A region can be defined as a cluster of data centers located in a physical space in the real world, like North Virginia (*us-east-1*), Paris (*eu-west-3*) and São Paulo (*sa-east-1*), and most AWS services are region-scoped. That means that if I have a service running in *us-east-1*, the exact same service won't be available in *sa-east-1*.
 
