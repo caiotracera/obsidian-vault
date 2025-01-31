@@ -8,6 +8,7 @@ Esse arquivo lista alguns dos principais comandos [[Docker & Docker Inc|Docker]]
 	- `--rm` - deleta automaticamente o container quando ele para de executar;
 	- `-d` - executa um container sem prender o terminal;
 	- `-p {HOST_PORT}:{CONTAINER_PORT}` - Faz com que seja possível acessar uma porta do container a partir de uma porta do computador host;
+	- `-v {CAMINHO_ABSOLUTO_PARA_PASTA_DO_HOST}:{CAMINHO__NO_CONTAINER}`;
 
 - `docker ps` - mostra os containers em execução;
 	- `-a` - mostra todos os containers, independente de estarem em execução ou não;
