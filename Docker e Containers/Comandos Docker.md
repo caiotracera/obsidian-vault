@@ -29,3 +29,9 @@ Esse arquivo lista alguns dos principais comandos [[Docker & Docker Inc|Docker]]
 	- `-i` - executa o container de forma interativa;
 	- `-t` - ativa o TTY, que permite que o meu terminal se comunique com o container;
 	- `-it` - é a junção dos comandos `-i` e `-t`, e faz com que seja possível interagir com um container diretamente do terminal;
+
+- `docker volume` - permite gerenciar os volumes que são gerenciados pelo Docker;
+	- `create {volume_name}` - cria um volume gerenciado pelo Docker;
+	- `ls` - lista os volumes criados;
+	-  `prune` - remove todos os volumes;
+	- `inspect` - tras um JSON com todos os detalhes do volume;
