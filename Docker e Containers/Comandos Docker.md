@@ -24,6 +24,8 @@ Esse arquivo lista alguns dos principais comandos [[Docker & Docker Inc|Docker]]
 	- `-f` - força a remoção de um container que está em execução;
 
 - `docker attach {container_id}` - linka o terminal ao container;
+
+- `docker cp {FOLDER} {CONTAINER_NAME}:{CONTAINER_FOLDER}` - copia uma pasta pra dentro de um container;
   
 - `docker exec {container_id} {command}` - executa um comando dentro de um container;
 	- `-i` - executa o container de forma interativa;
